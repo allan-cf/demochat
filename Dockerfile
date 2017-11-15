@@ -8,4 +8,6 @@ COPY package.json /usr/src/app/
 RUN yarn install
 COPY . /usr/src/app
 
+RUN npm install --save instana-nodejs-sensor
+
 CMD [ "npm", "start" ]
