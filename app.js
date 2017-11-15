@@ -1,7 +1,7 @@
 //
 // Let's Chat main file
 //
-
+require('instana-nodejs-sensor')();
 'use strict';
 
 process.title = 'letschat';
