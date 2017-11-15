@@ -3,8 +3,6 @@
 //
 'use strict';
 
-require('instana-nodejs-sensor')();
-
 process.title = 'letschat';
 
 require('colors');
