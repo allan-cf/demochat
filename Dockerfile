@@ -1,8 +1,8 @@
 # Change latest to your desired node version (https://hub.docker.com/r/library/node/tags/)
 
-RUN npm install --save instana-nodejs-sensor
-
 FROM kkarczmarczyk/node-yarn:8.0
+
+RUN npm install --save instana-nodejs-sensor
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
