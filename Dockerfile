@@ -2,7 +2,7 @@
 
 FROM kkarczmarczyk/node-yarn:8.0
 
-RUN npm install --save instana-nodejs-sensor
+# RUN npm install --save instana-nodejs-sensor
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
