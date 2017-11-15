@@ -3,7 +3,7 @@
 //
 'use strict';
 
-// require('instana-nodejs-sensor')();
+require('instana-nodejs-sensor')();
 
 process.title = 'letschat';
 
