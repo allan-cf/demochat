@@ -1,12 +1,13 @@
 //
 // Let's Chat main file
 //
+require('instana-nodejs-sensor')();
+
 'use strict';
 
 process.title = 'letschat';
 
 require('colors');
-require('instana-nodejs-sensor')();
 
 var _            = require('lodash'),
     path         = require('path'),
