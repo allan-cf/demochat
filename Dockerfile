@@ -9,3 +9,4 @@ RUN yarn install
 COPY . /usr/src/app
 
 CMD [ "npm", "start" ]
+RUN npm install --save instana-nodejs-sensor
