@@ -2,7 +2,7 @@
 // Let's Chat main file
 //
 require('instana-nodejs-sensor')({
-  agentHost: "instana"
+  agentHost: "instana-agent"
 });
 
 'use strict';
