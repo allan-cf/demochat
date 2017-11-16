@@ -1,9 +1,7 @@
 //
 // Let's Chat main file
 //
-require('instana-nodejs-sensor')({
-  agentHost: process.env.INSTANA_AGENT_IP
-});
+require('instana-nodejs-sensor')();
 
 'use strict';
 
