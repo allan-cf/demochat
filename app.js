@@ -5,7 +5,7 @@ require('instana-nodejs-sensor')();
 
 'use strict';
 
-process.title = 'letschat';
+// process.title = 'letschat';
 
 require('colors');
 
